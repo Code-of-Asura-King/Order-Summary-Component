@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    height: 100dvh;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    background: url(pattern-background-desktop.svg ), #e0e8ff;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Red Hat Display", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.main {
+    width: 378px;
+    height: fit-content;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.imagebox {
+    width: 378px;
+    height: fit-content;
+}
+
+#img1 {
+    width: 378px;
+    object-fit: contain;
+    object-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.comment {
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 16px;
+}
+
+.Gcolor {
+    color: #9ca1b3;
+
+}
+
+.inbox {
+    text-align: center;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f8f9fe;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15px;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    line-height: 1.5rem;
+}
+
+#bold {
+    font-weight: bolder;
+}
+
+a {
+    color: #372ab3;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.payment {
+    margin: 30px 30px 20px 30px;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    background-color: #382ae0;
+    color: white;
+    font-size: 14px;
+    box-shadow: 2px 9px 9px 3px #dcd9f7;
+}
+
+.cancel {
+    text-align: center;
+    color: #9ca1b3;
+    font-weight: bolder;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #847ce2;
+    text-decoration: none;
+}
+
+.payment:hover {
+    background-color: #766cf1;
+}
+
+.cancel:hover {
+    color: #2a3551;
+}
